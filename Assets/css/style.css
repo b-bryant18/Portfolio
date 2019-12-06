@@ -70,6 +70,14 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
 }
 
+h2{
+text-align: left;
+clear: both;
+color: black;
+font-size: 24px;
+font-family: 'Times New Roman', Times, serif;
+}
+
 #bradpic {
     float: left;
     max-width: 30%;
@@ -81,6 +89,7 @@ h1 {
 p{
     font-size: 16px;
     text-align:left;
+    color: black;
 }
 
 .mycontent {
@@ -92,12 +101,12 @@ p{
 
 #container {
     max-width: 960px;
-    box-sizing:border-box;
-    overflow:auto;
+    box-sizing: border-box;
+    overflow:  auto;
     margin: 0 auto;
     height:0 auto;
     background-color: #ffffff;
-    padding:50px;
+    padding: 50px;
     border: 1px solid #d1d0d0;
     border-radius:4px;
     margin-bottom: 30px;
@@ -119,11 +128,19 @@ form {
     color: rgb(43, 110, 131);
   }
 
+  input[type=text] {
+    text-align: left;
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
 textarea {
     text-align: left;
     width: 95%;
-    padding: 12px;
-    margin: 8px;
+    padding: 12px 20px;
+    margin: 8px 0;
     height: 200px;
 }
 
