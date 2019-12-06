@@ -165,13 +165,18 @@ h4 {
     color: #ffffff;
 }
 
-ul {
-    text-decoration: none;
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    color: #ffffff;
+    height: 50px;
+    background-color: #666666;
+    padding: 20px;
+    border-top: 8px solid #4aaaa5;
+border-color: #4aaaa5;
 }
-h2 {
-    font-size: 24px;
-}
-
 
 
 
