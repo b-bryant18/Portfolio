@@ -1,18 +1,152 @@
 * {
     text-align: center;
-    color: darkslategray;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.para {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-
 body{
-    background-color: lightslategray;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    background-color: rgb(180, 184, 187);
     margin: 0px;
     padding: 0px;
     background-image: url("../images/herringbone.png");
 }
+
+* {box-sizing: border-box;}
+
+#masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+color: #ffffff;
+background: #ffffff;
+border-bottom: 2px solid #cccccc;
+}
+
+#logo {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+}
+
+nav {
+    bottom: 0px;
+    right: 0px;
+    padding: 20px;
+    background-color: whitesmoke;
+    float:right;
+    position: relative;
+    width: 75%;
+    margin: auto;
+} 
+
+nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+  }
+
+  footer {
+    position: fixed;
+    left: 0px;
+    bottom: 20px;
+    width: 100%;
+    color: #ffffff;
+    height: 50px;
+    background-color: #666666;
+    padding: 20px;
+    border-top: 8px solid #4aaaa5;
+border-color: #4aaaa5; 
+}
+h3{
+    text-align: left;
+    clear: both;
+    color: black;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    
+#main-container {
+    padding-top: 130px;
+  min-height: calc(100vh - 70px);
+}
+
+/* <--Changes potfolio pics--> */
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+}
+
+.work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+
+/* changes text in portfolio pics */
+
+  .work h3 {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 0;
+    font-weight: 200;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+
+/* contact page */
+
+  #contact-form ul {
+      margin-bottom: 20px;
+  }
+
+  #contact-form li {
+      margin-bottom: 10px;
+  }
+
+  textarea {
+    height: 200px;
+  }
 
 header{ 
     position: relative;
@@ -40,16 +174,7 @@ header{
     border-bottom: 1px solid #d1d0d0;
     }
 
-    nav {
-        bottom: 0px;
-        right: 0px;
-        padding: 20px;
-        background-color: whitesmoke;
-        float:right;
-        position: relative;
-        width: 75%;
-        margin: auto;
-    } 
+    
     a {
         padding: 10px;
         text-decoration: none;
@@ -70,18 +195,10 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
 }
 
-h2{
-text-align: left;
-clear: both;
-color: black;
-font-size: 24px;
-font-family: 'Times New Roman', Times, serif;
-}
-
 #bradpic {
     float: left;
     max-width: 30%;
-    height: auto;
+    height: 310px;
     border-radius: 8px;
     margin: 5px;
 }
@@ -94,7 +211,7 @@ p{
 
 .mycontent {
     clear:both;
-    width:90%;
+    width:90%;  
     height:auto;
     margin:auto;
 }
@@ -147,9 +264,11 @@ textarea {
 input[type=submit] {
 background-color: #4aaaa5;
 color: #ffffff;
+font-size: 18px;
 padding: 10px;
 border: none;
 box-shadow: none;
+cursor: pointer;
 }
 
 input:hover {
@@ -168,32 +287,6 @@ background-color: #666666;
     height: 200px;
 }
 
-.textblock {
-    box-sizing: border-box;
-    position: absolute;
-    bottom: 5px;
-    left: 10px;
-    width: 100%;
-    background-color: #4aaaa5;
-    opacity: 0.8;
-}
-
-h4 {
-    color: #ffffff;
-}
-
-footer {
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    width: 100%;
-    color: #ffffff;
-    height: 50px;
-    background-color: #666666;
-    padding: 20px;
-    border-top: 8px solid #4aaaa5;
-border-color: #4aaaa5;  
-}
 
 
 

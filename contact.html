@@ -1,49 +1,51 @@
-<!DOCYTPE html>
-    <html lang="en-us">
+<!DOCTYPE html>
+<html lang="en-us">
 
-    <head>
-        <title>Contact</title>
-        <link rel="stylesheet" href="Assets/css/style.css">
-    </head>
+<head>
+    <title>Contact</title>
+    <link rel="shortcut icon" type="image/png" href="Assets/images/Favicon.png"/>
+    <link rel="stylesheet" href="Assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navigation">
+            <nav>
+                <h1>Brad Bryant</h1>
+                <!-- <ul> -->
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+                <!-- </ul> -->
+            </nav>
+        </div>
+    </header>
+
+    <div id="container">
+        <section>
+            <h2>Contact</h2>
+        </section>
+        <hr>
+        <section>
+            <form action="/action_page.php">
+                <label for="name">Name</label>
+                <input type="text" name="name">
+                <br>
+                <label for="email">Email</label>
+                <input type="text" name="email">
+                <br>
+                <label for="message">Message<textarea></textarea></label>
+                <br>
+                <input type="submit" value="Submit">
+                </input>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">Copyright &copy; 2019</div>
+    </footer>
 
     <body>
-        <header>
-            <div class="navigation">
-                <nav>
-                    <h1>Brad Bryant</h1>
-                    <ul>
-                        <a href="index.html">About</a>
-                        <a href="portfolio.html">Portfolio</a>
-                        <a href="contact.html">Contact</a>
-                    </ul>
-                </nav>
-            </div>
-        </header>
 
-        <div id="container">
-            <section>
-                <h2>Contact</h2>
-            </section>
-            <hr>
-            <section>
-                <form action="/action_page.php">
-                    <label for="name">Name</label>
-                    <input type="text" name="name">
-                    <br>
-                    <label for="email">Email</label>
-                    <input type="text" name="email">
-                    <br>
-                    <label for="message">Message<textarea></textarea></label>
-                    <input type="text" name="message">
-                    <br>
-                    <input type="submit" value="Submit">
-                    </input>
-                </form>
-            </section>
-        </div>
-
-        <footer>Copyright &copy; 2019</footer>
-
-        <body>
-
-    </html>
+</html>
