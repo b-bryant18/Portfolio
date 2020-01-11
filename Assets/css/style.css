@@ -11,7 +11,6 @@ body{
     background-color: rgb(180, 184, 187);
     margin: 0px;
     padding: 0px;
-    background-image: url("../images/herringbone.png");
 }
 
 * {box-sizing: border-box;}
@@ -75,8 +74,8 @@ nav a:first-child {
     height: 50px;
     background-color: #666666;
     padding: 20px;
-    border-top: 8px solid #4aaaa5;
-border-color: #4aaaa5; 
+    border-top: 8px solid #18419b;
+border-color: #18419b; 
 }
 h3{
     text-align: left;
@@ -122,7 +121,7 @@ h3{
     line-height: 30px;
     color: #ffffff;
     text-align: center;
-    background: #4aaaa5;
+    background: #18419b;
     border-bottom: 0;
   }
 
@@ -190,7 +189,7 @@ h1 {
     bottom: 0px;
     text-align: left;
     color: #ffffff;
-    background-color: #4aaaa5;
+    background-color: #18419b;
     padding: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -226,7 +225,7 @@ p{
     padding: 50px;
     border: 1px solid #d1d0d0;
     border-radius:4px;
-    margin-bottom: 30px;
+    margin-top: 12%;
 }
 form {
     text-align: left;
@@ -262,7 +261,7 @@ textarea {
 }
 
 input[type=submit] {
-background-color: #4aaaa5;
+background-color: blue;
 color: #ffffff;
 font-size: 18px;
 padding: 10px;
